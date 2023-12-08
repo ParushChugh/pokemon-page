@@ -3,13 +3,13 @@ import React from 'react'
 
 function Header() {
   return (
-    <header class="header">
-        <div class="container">
-        <div class="logo">
+    <header className="header">
+        <div className="container">
+        <div className="logo">
             <img src="/assets/logo.png"/>
         </div>
-        <div class="nav">
-            <li class="active"><a  active>Home</a></li>
+        <div className="nav">
+            <li className="active"><a >Home</a></li>
             <li><a >Pokemon</a></li>
             <li><a >My Pokemon</a></li>
         </div>
